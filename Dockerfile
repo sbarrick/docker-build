@@ -1,5 +1,6 @@
 # Use the official Python 3.10 image as the base image
 FROM python:3.10
+LABEL org.opencontainers.image.authors="shawnbarrick@gmail.com"
 
 # Set the working directory inside the container
 WORKDIR /app
